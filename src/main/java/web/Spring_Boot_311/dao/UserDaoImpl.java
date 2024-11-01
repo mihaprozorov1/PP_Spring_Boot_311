@@ -3,8 +3,8 @@ package web.Spring_Boot_311.dao;
 import org.springframework.stereotype.Repository;
 import web.Spring_Boot_311.model.User;
 
-import javax.persistence.EntityManager;
-import javax.persistence.PersistenceContext;
+import jakarta.persistence.EntityManager;
+import jakarta.persistence.PersistenceContext;
 import java.util.List;
 
 @Repository
